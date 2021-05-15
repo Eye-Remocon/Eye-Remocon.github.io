@@ -34,7 +34,7 @@ Home Edge 프로젝트를 진행하면서 해당 기능을 어떻게 구현하�
 <pre>
 ---
 layout: post
-title: Introducing Hyde
+title: (포스팅 제목)
 categories : (해당 카테고리)
 ---
 </pre>
