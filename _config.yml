@@ -15,6 +15,7 @@ paginate:            5
 author:
   name:              Eye-Remocon
   url:               https://eye-remocon.github.io/
+  baseurl:           ""
   email:             hithere1012@naver.com
 
 # Custom vars
