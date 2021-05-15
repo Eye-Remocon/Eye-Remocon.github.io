@@ -8,14 +8,14 @@ permalink:           pretty
 title:               Eye-Remocon Tech Blog
 tagline:             Home Edge Project
 description:         Eye-Remocon
-url:                 https://eye-remocon.github.io/
+url:                 "https://eye-remocon.github.io"
 baseurl:             ''
 paginate:            5
 
 # About/contact
 author:
   name:              Eye-Remocon
-  url:               https://eye-remocon.github.io/
+  url:               https://eye-remocon.github.io
   email:             hithere1012@naver.com
 
 # Custom vars
