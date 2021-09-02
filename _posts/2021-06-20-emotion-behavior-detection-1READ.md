@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Emotion Detection Model # 1
+title: Emotion Detection Model-1 # 1
 categories : Emotion-Behavior-Detection
 
 ---
