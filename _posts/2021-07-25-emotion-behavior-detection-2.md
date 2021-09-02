@@ -105,7 +105,7 @@ if __name__ == "__main__":
   - 미리 학습된 ResNet9 감정인식모델과 얼굴을 인식하는 모델을 불러옴
   - 사진의 얼굴을 인식하여 크롭하고, 감정인식모델에 적용될 수 있도록 이미지 변환 시키고 만약 얼굴이 인식되지 않았다면 No Face 반환
   - 학습된 모델을 forward 시켜 7가지 감정의 분류를 할 수 있도록 구현
-  - 감정이 7가지로 분류된다면 해당 Label를 반환, 감정분류가 안된다면 공백 반환
+  - 감정이 7가지로 분류된다면 해당 Label를 반환, 감정분류가 안된다면 공백 반환  
 ```
 import cv2
 import numpy as np
@@ -199,7 +199,7 @@ def detection(face_picture):
 
 - aws_emotion_detection.py
   - aws 감정인식 요청 시에, 이미지의 base64코드를 aws 로컬 이미지로 요청 <기존 S3 클라우드 서비스에 이미지 저장하는 것을 변경함>
-  - 여러 FaceDetails 중에 가장 Confidence 높은 Emotions 특징값만 반환
+  - 여러 FaceDetails 중에 가장 Confidence 높은 Emotions 특징값만 반환  
 ```
 #Copyright 2018 Amazon.com, Inc. or its affiliates. All Rights Reserved.
 #PDX-License-Identifier: MIT-0 (For details, see https://github.com/awsdocs/amazonrekognition-developer-guide/blob/master/LICENSE-SAMPLECODE.)
