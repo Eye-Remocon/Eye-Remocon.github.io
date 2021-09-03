@@ -57,14 +57,15 @@ categories : Emotion-Behavior-Detection
 
 
 2. 소스코드
+
 - main.py
   - flask 서버가 실행되는 메인 소스코드  
   - 클라이언트로부터 이미지파일을 POST 요청을 받아서, 해당 이미지의 BASE64코드를 이미지로 변환 수행  
   - 처음으로 HOME Emotion Detection을 수행하기 위해 detection() 함수 호출  
   - HOME Emotion Detection 수행 시, 감정인식이 되지 않는다면 아무값도 반환되지 않는다면, AWS Emotion Detection 에서 aws_main() 호출  
-  - 반환되는 감정을 담은 json 파일을 클라이언트에게 다시 반환  
-
-```{.python}
+  - 반환되는 감정을 담은 json 파일을 클라이언트에게 다시 반환.   
+  
+```
 import base64
 import io
 import numpy
@@ -105,7 +106,9 @@ if __name__ == "__main__":
   - 미리 학습된 ResNet9 감정인식모델과 얼굴을 인식하는 모델을 불러옴
   - 사진의 얼굴을 인식하여 크롭하고, 감정인식모델에 적용될 수 있도록 이미지 변환 시키고 만약 얼굴이 인식되지 않았다면 No Face 반환
   - 학습된 모델을 forward 시켜 7가지 감정의 분류를 할 수 있도록 구현
-  - 감정이 7가지로 분류된다면 해당 Label를 반환, 감정분류가 안된다면 공백 반환  
+  - 감정이 7가지로 분류된다면 해당 Label를 반환, 감정분류가 안된다면 공백 반환
+
+   
 ```
 import cv2
 import numpy as np
@@ -199,7 +202,9 @@ def detection(face_picture):
 
 - aws_emotion_detection.py
   - aws 감정인식 요청 시에, 이미지의 base64코드를 aws 로컬 이미지로 요청 <기존 S3 클라우드 서비스에 이미지 저장하는 것을 변경함>
-  - 여러 FaceDetails 중에 가장 Confidence 높은 Emotions 특징값만 반환  
+  - 여러 FaceDetails 중에 가장 Confidence 높은 Emotions 특징값만 반환
+
+ 
 ```
 #Copyright 2018 Amazon.com, Inc. or its affiliates. All Rights Reserved.
 #PDX-License-Identifier: MIT-0 (For details, see https://github.com/awsdocs/amazonrekognition-developer-guide/blob/master/LICENSE-SAMPLECODE.)
@@ -225,7 +230,9 @@ def aws_main(face_image):
 
 - Flask 이용한 API 구현    
   - 개발 편의로 인한 host 주소 0.0.0.0 사용    
-  - 자주 사용되는 포트(5000, 8080 등) 사용시 충돌이 날 수 있음으로 다른 포트 번호 사용    
+  - 자주 사용되는 포트(5000, 8080 등) 사용시 충돌이 날 수 있음으로 다른 포트 번호 사용 
+
+  
 ```{.python}
 if __name__ == "__main__":
     app.run(debug=True, host='0.0.0.0', port=9900)
@@ -235,6 +242,8 @@ if __name__ == "__main__":
 <br>
 
 - Local Emotion Detection에서 인식 결과 없을 때 ""로 반환이 아닌 "None"으로 반환
+
+
 ```{.python}
     detection_result = home_emotion_detection.detection(open_cv_face_image)
     if detection_result == None:
