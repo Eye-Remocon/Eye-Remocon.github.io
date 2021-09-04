@@ -20,9 +20,10 @@ Home Edge 프로젝트를 진행하면서 해당 기능을 어떻게 구현하�
 
 ### 블로그 카테고리
 1. HW-control : IoT 장비 컨트롤과 라즈베리파이(OS)에 대한 내용
-2. LF-Edge-Contribution : LF HomeEdge open source 사용법과 Contribution한 내용
-3. Emotion-Behavior-Detection : 단말을 통해 감정 및 행동 인식에 대한 내용
-4. Container : Docker를 사용하여 Container를 구현하는 내용
+2. Service : Eye-Remocon 서비스 관련 내용
+3. LF-Edge-Contribution : LF HomeEdge open source 사용법과 Contribution한 내용
+4. Emotion-Behavior-Detection : 단말을 통해 감정 및 행동 인식에 대한 내용
+5. Container : Docker를 사용하여 Container를 구현하는 내용
 
 
 
