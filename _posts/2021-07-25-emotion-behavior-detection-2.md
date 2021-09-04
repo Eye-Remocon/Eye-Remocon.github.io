@@ -201,7 +201,8 @@ def detection(face_picture):
 
 
 - aws_emotion_detection.py
-  - aws 감정인식 요청 시에, 이미지의 base64코드를 aws 로컬 이미지로 요청 <기존 S3 클라우드 서비스에 이미지 저장하는 것을 변경함>
+  - aws 감정인식 요청 시에, 이미지의 base64코드를 aws 로컬 이미지로 요청 
+  - 기존 S3 클라우드 서비스에 이미지 저장하는 것을 변경함
   - 여러 FaceDetails 중에 가장 Confidence 높은 Emotions 특징값만 반환
 
  
