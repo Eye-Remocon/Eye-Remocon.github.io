@@ -29,7 +29,9 @@ categories : Emotion-Behavior-Detection
 - cuda, cudnn 라이브러리를 이용해서 GPU를 이용해서 모델 학습
 
 4. ResNet9 Model Base Lines
-```{.python}
+
+
+```
 def conv_block(in_channels, out_channels, pool=False):
     layers = [nn.Conv2d(in_channels, out_channels, kernel_size=3, padding=1), 
               nn.BatchNorm2d(out_channels), 
@@ -82,6 +84,8 @@ class ResNet(ImageClassificationBase):
 
 
 5. Hyperparameters
+
+
 ```{.python}
 epochs = 140
 max_lr = 0.008
