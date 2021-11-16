@@ -21,17 +21,17 @@ categories : Emotion-Behavior-Detection
 * Main : 시작점  
 
 * 서비스
-  * [x] 이미지 정보 수신 (Python flask 서버 코드 활용)
-  * [x] 감정인식 (Local 측면)
-  * [x] 감정인식 (AWS Rekognition 측면) 
+  * 이미지 정보 수신 (Python flask 서버 코드 활용)
+  * 감정인식 (Local 측면)
+  * 감정인식 (AWS Rekognition 측면) 
   
 * Local Emotion Detection
-  * [x] 크롭된 안면 이미지 파일 변환 (그레이화, 크기)
-  * [x] 미리 학습된 감정인식 모델 불러와서 해당 이미지에 인식된 감정인식 및 결과 반환  
+  * 크롭된 안면 이미지 파일 변환 (그레이화, 크기)
+  * 미리 학습된 감정인식 모델 불러와서 해당 이미지에 인식된 감정인식 및 결과 반환  
 
 * AWS Rekognition
-  * [x] 크롭된 안면 이미지 파일의 정보를 담은 요청구문을 통해 AWS Rekognition API 요청  
-  * [x] 응답된 JSON 파일의 Emotions 정보를 반환          
+  * 크롭된 안면 이미지 파일의 정보를 담은 요청구문을 통해 AWS Rekognition API 요청  
+  * 응답된 JSON 파일의 Emotions 정보를 반환          
 
 > Local Emotion detection model과 AWS Rekognition 서비스를 나눠서 실행  
 > main에서 제일 먼저 Local Emotion detection model에서 감정인식된 결과값을 받기  
