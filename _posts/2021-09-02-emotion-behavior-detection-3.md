@@ -71,7 +71,8 @@ if r.ok:
 ```
 - 해당 이미지 파일을 테스트하려는 파이썬 프로젝트 파일경로에 넣어주시고 위에 코드를 알맞게 바꿔주시길 바랍니다.
 - main.js 실행시킨 후 python 코드 실행시키면 다음과 같은 predict 된 json 파일을 얻으실 수 있습니다.
-![K-034](/uploads/ee60cc1954991c68921f86f7fa0e73a7/K-034.png)
+![image](https://user-images.githubusercontent.com/54658745/144573021-a15e680b-8bdd-4ae6-a412-ea3025ef8ab4.png)
+
 
 
 4. main.js 코드 설명
