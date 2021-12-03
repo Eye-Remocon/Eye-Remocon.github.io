@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Emotion Detection Model-2 # 1
+title: HW-control Server
 categories : HW-control
 ---
 
