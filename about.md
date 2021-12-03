@@ -3,14 +3,15 @@ layout: page
 title: Project Introduction
 ---
 
-# 🏠 Home Edge로 구현한 스마트홈
+# 🏠 IoT-Edge-Cloud 활용 스마트홈 구축
 
 <H2>💡 프로젝트 소개 </H2>
 
 1. 라이프 사이클을 적용한 홈 IoT관리 : CCTV를 통해 행동을 인식하고 이에 따라 IoT기기들이 작동할 수 있게 만들어 준다. 
 2. 감정에 따른 분위기 조절 : 얼굴인식을 통해 감정을 읽게 되고 현재 기분에 맞춰 노래를 선곡해주거나 조명을 조절해준다.
 
-  👉 [유튜브영상](https://www.youtube.com/watch?v=GlVb4BV72ao)
+  👉 [유튜브영상](https://www.youtube.com/watch?v=GlVb4BV72ao)  
+  👉 [Main Service GitHub Repository](https://github.com/Eye-Remocon/Face_Recognition)
 <br/>
 
 <H2>🛠 주요 기능 </H2>
@@ -68,7 +69,10 @@ title: Project Introduction
 |류상욱|서비스 로직(컨테이너) 구현, LF HomeEdge 오픈소스 기여|팀원|
 |이승빈|얼굴&감정&행동인식 모델 구축, 서비스 로직(컨테이너) 구현|팀원|
 
-
+<br/>
+<H2>👨‍🎉 프로젝트 결과 </H2>
+- 2021 ICT 한이음 공모전 입선작
+- 2021 한국정보처리학회 ICT 멘토링 학술대회 최우수상
 
 
 
