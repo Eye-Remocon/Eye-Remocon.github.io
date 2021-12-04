@@ -28,7 +28,7 @@ categories : LF-Edge-Contribution
   - 해결 방법 : logmgr import 부분을 제거하면 log redeclared as imported package name 에러 해결 가능  
 
 
-<h4>3️⃣ 값진 코드 리뷰 </h3>  
+<h3>3️⃣ 값진 코드 리뷰 </h3>  
 - 프로젝트 내 테스트 위해서 이미 테스트하는 모듈 존재  
 - 테스트 파일을 활용해 테스트 후, 결과를 PR에 반영  
   - edge-home-orchestration-go 폴더    
