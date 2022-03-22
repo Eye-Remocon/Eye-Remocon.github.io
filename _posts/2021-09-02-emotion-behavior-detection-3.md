@@ -47,6 +47,7 @@ categories : Emotion-Behavior-Detection
 $ pip install requests
 ```
 - python code  
+
 ```
 import requests
 import base64
@@ -67,8 +68,8 @@ if r.ok:
     pose = r.json()
     print(pose)
     print("time :", time.time() - start)
+```
 
-```  
 - 해당 이미지 파일을 테스트하려는 파이썬 프로젝트 파일경로에 넣어주시고 위에 코드를 알맞게 바꿔주시길 바랍니다.
 - main.js 실행시킨 후 python 코드 실행시키면 다음과 같은 predict 된 json 파일을 얻으실 수 있습니다.
 ![image](https://user-images.githubusercontent.com/54658745/144573021-a15e680b-8bdd-4ae6-a412-ea3025ef8ab4.png)
